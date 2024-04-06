@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Allergy Detection Status</title>
+</head>
+<body>
+    <h1>Allergy Detection System</h1>
+    {% if allergy_detected %}
+        <h2 style="color:red;">Allergy Detected!</h2>
+    {% else %}
+        <h2>No Allergy Detected</h2>
+    {% endif %}
+</body>
+</html>

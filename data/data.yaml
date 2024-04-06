@@ -1,0 +1,5 @@
+train: C:\Users\STUDENT\REGIIN PROJECT\regiin-project\yolov8\data\train\images
+test: C:\Users\STUDENT\REGIIN PROJECT\regiin-project\yolov8\data\test\images
+val: C:\Users\STUDENT\REGIIN PROJECT\regiin-project\yolov8\data\valid\images
+nc: 1
+names: ['urticaria']

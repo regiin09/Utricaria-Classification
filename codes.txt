@@ -1,0 +1,7 @@
+codes 
+
+yolo classify train data="C:\Users\STUDENT\REGIIN PROJECT\regiin-project\yolov8\classification dataset" model=yolov8n-cls.pt epochs = 250 imgsz=320
+
+yolo task=classify mode=val model=best.pt data="C:\Users\STUDENT\REGIIN PROJECT\regiin-project\yolov8\classification dataset"
+
+yolo predict model=best.pt source=0 show=True
